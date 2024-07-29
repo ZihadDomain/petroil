@@ -1,0 +1,300 @@
+/* ===============================
+            Common css start
+==================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.body,html{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+
+
+.df{
+    display: flex;
+    align-items:center;
+}
+
+a,p{
+    color:#6c6c6c;
+    font-size:16px;
+    font-weight: 500;
+    line-height:24px;
+}
+a{
+    text-decoration:none;
+}
+
+
+img{
+    width:100%;
+}
+
+/* ===============================
+            Common css end
+==================================*/
+
+
+
+/* ===============================
+            Nav Bar style start
+==================================*/
+
+nav{
+    background-color:#F40404;
+    padding:47px 0px;
+}
+nav .container{
+    justify-content:space-between;
+}
+.manu ul{
+    list-style:none;
+   gap:52px;
+}
+.manu ul li a{
+    color:#fff;
+    transition:.5s;
+}
+.manu ul li a:hover{
+    color:#ddd;
+}
+.manu ul button{
+   margin-left:20px;
+   border:2px solid #fff;
+   background-color:transparent;
+   padding:15px 30px;
+   font-weight:600;
+   font-size:16px;
+   color:#fff;
+   transition:.5s;
+   cursor:pointer;
+}
+.manu ul button:hover{
+   background-color:#fff;
+   color:#000;
+  
+}
+/* ===============================
+            Nav Bar style End
+==================================*/
+
+
+/* ===============================
+            banner  style Start
+==================================*/
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("./img/banner.png");
+    background-repeat:no-repeat;
+    width:100%;
+    height:780px;
+    background-size:cover;
+    background-position:center;
+    background-origin:content-box;
+   position:relative;
+    
+}
+.banner h1{
+  color:#fff;
+  font-size:64px;
+  font-weight: bold;
+    
+}
+
+.banner_content{
+    position:absolute;
+    top:50%;
+    width:842px;
+}
+.btn{
+background-color:#F40404;
+padding:15px 40px;
+border:0px solid;
+color:#fff;
+font-weight:600;
+margin-top:31px;
+    
+}
+
+/* ===============================
+            Banner  style End
+==================================*/
+
+
+/* ===============================
+            Branch  style Start
+==================================*/
+
+.branch_section .container{
+    padding:78px 0px 100px 0px;
+    justify-content:space-between;
+}
+.branch_section .container .Branch-title{
+   width:289px;
+}
+.branch_section .container .Branch-title h1{
+  font-size:48px;
+  font-weight: bold;
+}
+.branch_section .container .Branch-info{
+   width:651px;
+}
+
+.Branch_img{
+    justify-content:space-between;
+   /* gap:29px; */
+}
+
+.Branch_img img{
+    width:24%;
+}
+
+/* ===============================
+            Branch  style End
+==================================*/
+
+
+
+/* ===============================
+            Service  style Start
+==================================*/
+.service{
+    padding-top:28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.all-service{
+width:100vw;
+
+}
+
+.service-title{
+    width:509px;
+}
+.service-title p{
+    width:405px;
+}
+
+.serviceImg1,.serviceImg2,.serviceImg3,.serviceImg4{
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.inner{
+    width:700px;
+}
+.al{
+    align-self: left;
+    height:51px;
+    width:162;
+}
+.serviceImg2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/service1.png");
+    background-size:cover;
+    background-position:center;
+    height: 410px;
+  
+}
+.serviceImg3{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/service2.png");
+    background-size:cover;
+    background-position:center;
+    
+}
+.serviceImg4{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/service3.png");
+    background-size:cover;
+    background-position:center;
+   
+}
+
+h2{
+    color:#fff;
+    font-weight: bold;
+    font-size:36px;
+}
+
+/* ===============================
+            Service  style End
+==================================*/
+
+
+/* ===============================
+            Street  style Start
+==================================*/
+
+.street{
+    width:100%;
+    height:633px;
+    background-color:#F0F0F0;
+    padding:136px 0px;
+}
+
+
+.left{
+    height:361px;
+    width:423px;
+    background-color:#F40404;
+    display: flex;
+    align-items: center;
+}
+
+.left p{
+    font-size: 36px;
+    font-weight: bold;
+    color:#fff;
+    text-align:center;
+  line-height: 33px;
+}
+
+.right{
+    background-image: url("./img/street.png");
+     background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height:361px;
+}
+
+.right button{
+background-color:#fff;
+color:#F40404;
+padding:13px 15px;
+border:0px solid;
+
+}
+
+/* ===============================
+            Street  style End
+==================================*/
+
+/* ===============================
+            Logo  style Start
+==================================*/
+.logo_section{
+    width:100%;
+    height:325px;
+    background-color:#fff;
+   
+}
+
+.logos{
+    height:325px;
+    justify-content: space-between;
+    align-items:center;
+}
+/* ===============================
+            Logo  style End
+==================================*/
